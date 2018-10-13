@@ -1,0 +1,14 @@
+{
+    "checks": {
+      "sensu-client": {
+        "command": "check-process.rb -p sensu-client",
+        "standalone": true,
+        "interval": 60
+      },
+      "myip": {
+        "command": "ping -c 1 sensu-client",
+        "standalone": true,
+        "interval": 60
+      }
+    }
+  }

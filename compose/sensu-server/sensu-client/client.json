@@ -1,0 +1,15 @@
+{
+    "client": {
+      "name": "localhost",
+      "address": "localhost",
+      "environment": "k8s",
+      "subscriptions": [
+        "dev",
+        "k8s"
+      ],
+      "socket": {
+        "bind": "127.0.0.1",
+        "port": 3030
+      }
+    }
+  }
