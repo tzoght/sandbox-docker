@@ -11,4 +11,3 @@
 
 # Intersting Architecture Discussions
 * The topic of pid namespaces in docker (see https://hackernoon.com/the-curious-case-of-pid-namespaces-1ce86b6bc900)
-* 
